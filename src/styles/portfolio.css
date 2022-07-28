@@ -1,0 +1,18 @@
+.portfolio-container{
+    background: linear-gradient(90deg, #9181fc9a 56%, #728ed400 100%);
+    height: 100%;
+}
+
+
+
+
+.portfolio{
+    
+    background-color: #2d2822;
+    width: 75%;
+    height: 800px;
+    border-radius: 45px;
+    display: flex;
+    margin: 50px auto;
+
+}

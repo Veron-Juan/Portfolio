@@ -1,6 +1,7 @@
-body{
+/* body{
     background: linear-gradient(90deg, #9181fc77 56%, #728ed400 100%); 
-}   
+    
+}    */
 .header{
     display: flex;
     height: 80px;
@@ -25,15 +26,17 @@ body{
     cursor: pointer;
 }
 .header-ul li:hover{
-    color: #7069bc;
+    color: #aea8ea;
+    
 }
 .header-nav{
     display: none;
-    cursor: pointer; 
+    cursor: pointer;
+    
 }
 
 .togle-menu{
-    background-color: #716abe92;
+    background-color: #7a73c4f9;
     position: absolute;
     top: 60px;
     right: 0;
@@ -41,6 +44,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    
      
     
 }
@@ -63,7 +67,7 @@ body{
     color: white;
 }
 
-@media (max-width:875px){
+@media (max-width:1010px){
     .header-nav{
         display: block;
     }
