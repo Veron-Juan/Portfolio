@@ -1,0 +1,36 @@
+.footer{
+    background-color: #171258a7;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-logo{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.footer-copyright{
+    color: white;
+    margin: 0 auto;
+    
+}
+.footer-redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.footer-redes-container img{
+    width: 31px;
+    cursor: pointer;
+}
+.footer-redes-container img:hover{
+    -webkit-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
+    -moz-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
+    box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
+}
+

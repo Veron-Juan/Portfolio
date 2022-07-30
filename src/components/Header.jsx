@@ -10,7 +10,7 @@ export default function Header(){
         setTogle(!togle);
     }
     return(
-        <header className="header">
+        <header className="header" id="home">
             <img className="header-logo" src={logo}/>
             <ul className="header-ul">
                 <li>Home</li>

@@ -4,7 +4,7 @@ import redes from "../assets/redes 6.svg"
 
 export default function Home(){
     return(
-        <div className="home-container">
+        <div className="home-container" id="home">
             <div className="home-container--circle-button">
                 <img  className="home-circle" src="https://fondosmil.com/fondo/17538.jpg"/>
                 <button className="home-buttoncv">
