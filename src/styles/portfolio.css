@@ -1,9 +1,11 @@
 .portfolio-container{
-    background: linear-gradient(90deg, #9181fc77 100%, #728ed400 100%);
+    /* background: linear-gradient(90deg, #9181fc77 100%, #728ed400 100%); */
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
+    
 
 }
 
@@ -11,19 +13,133 @@
     font-family: 'Anek Latin', sans-serif;
     font-size: 32px;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 40px;
+    
+}
+.portfolio{
+    margin: 35px 0;
+    padding: 50px 0;
+    background-image: radial-gradient(circle at 78.81% 39.51%, #ffdfff 0, #e1beff 25%, #b89aea 50%, #8c78d2 75%, #817dbf8c 100%);
+    width: 85%;
+    height: 100%;
+    border-radius: 45px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content: center;
+    box-shadow: 11px 9px 13px -5px rgba(0,0,0,0.71);
+    
+    
+    
+}
+
+.bg-hover{
+    background-color: #3d2da45c;
+    transition: .7s;
+    
+}
+
+.portfolio-links{
+    width: 320px;
+    height: 320px;
+    margin: 20px 20px;
+    background-color: #e5e3ee86;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 0;
+    box-shadow: 11px 9px 13px -5px rgba(0,0,0,0.71);
+
+}
+.portfolio-links:hover{
+    transform: scale(1.1);
+    transition: .7s;
+    
+}
+
+.portfolio-tecn{
+    display: flex;
+    
+
+}
+.portfolio-tecn p{
+    background-color: rgb(217, 215, 212);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: bold;
+    
+
+}
+hr{
+    width: 90%;
+    color: black;
+    
+}
+.portfolio-img{
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(128, 129, 130);
+    border-radius: 30px;
+    
+}
+
+.portfolio-links_button{
+    display: flex;
+    justify-content: center;
     
 }
 
 
-.portfolio{
-    margin: 52px 0;
-    background-color: #2d2822;
-    width: 75%;
-    height: 700px;
-    border-radius: 45px;
+
+.portfolio button{
+    width: 95px;
+    height: 28px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    background-color: #5f54abdc;
+    color: rgba(224, 230, 236, 0.712);
+    font-weight: bold;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 18px;
 
     
     
+}
 
+.buton-git{
+    width: 20px;
+}
+
+
+
+.abc{
+    width: 20px;
+    
+}
+
+
+@media (max-width: 822px){
+    .portfolio-container{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 432px){
+    .portfolio-links{
+        width: 200px;
+        height: 282px;
+    
+    }
+    .portfolio button{
+        width: 50px;
+        height: 22px;
+    }
+    .portfolio-links_button img{
+        width: 15px;
+    }
 }

@@ -1,6 +1,7 @@
 import "../styles/contact.css"
 import React, { useRef } from 'react';
 import emailjs from "@emailjs/browser"
+import gmail from "../assets/icons8-gmail.svg"
 
 
 
@@ -18,8 +19,8 @@ export default function Contact(){
     }
 
     return(
-        <div className="contact-container">
-            <h2>Contact</h2>
+        <div className="contact-container" id="contact">
+            <h2>Contact <img src={gmail}/></h2>
             <form className="contact-form" ref={form} onSubmit={sendEmail}>
                 <input className="input-name" type="text" placeholder="name" name="user_name"></input>
                 <input className="input-email" type="email" required placeholder="e-mail" name="user_email"></input>

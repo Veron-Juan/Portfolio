@@ -13,10 +13,10 @@ export default function Header(){
         <header className="header" id="home">
             <img className="header-logo" src={logo}/>
             <ul className="header-ul">
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <img onClick={menu} className="header-nav" src={nav}/>
             {togle && <div className="togle-menu">

@@ -9,12 +9,14 @@ Footer
 
 function App() {
 
+
+
   return (
-    <div className="App">
+    <div className="App ">
       <Header />
       <Home /> 
-      <Skills />
       <Portfolio />
+      <Skills />
       <Contact />
       <Footer />
       
