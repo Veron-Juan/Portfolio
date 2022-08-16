@@ -24,19 +24,19 @@ export default function Portfolio(){
                     <h3>Title project</h3>
                     <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
                 <div className="portfolio-links">
                     
-                    <img className="portfolio-img" src="https://www.elgrupoinformatico.com/static/Noticias/2022/01/tener-hbo-max-gratis-1200x675.jpg" />
-                    <h3>Title project</h3>
-                    <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
+                    <div className="portfolio-img2"></div>
+                    <h3>Reproductor Music React</h3>
+                    <p>A template music player made with react, contains css animations. </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
@@ -46,8 +46,8 @@ export default function Portfolio(){
                     <h3>Random Dogs</h3>
                     <p>This is one of my first projects, in which I use a REST API, you get random pictures of dogs, you can save them in favorites, delete them and upload a picture of your dog to save it. </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
@@ -58,8 +58,8 @@ export default function Portfolio(){
                     <h3>Title project</h3>
                     <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
@@ -70,8 +70,8 @@ export default function Portfolio(){
                     <h3>Title project</h3>
                     <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
@@ -82,8 +82,8 @@ export default function Portfolio(){
                     <h3>Title project</h3>
                     <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
                     <div className="portfolio-links_button">
-                    <button ><img src={exterlink}/> </button>
-                        <button> <img className="abc" src={github}/>  </button>
+                    <button className="button-project" ><img src={exterlink}/>Project </button>
+                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
                     </div>
                     
                 </div>
