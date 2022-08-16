@@ -1,5 +1,5 @@
 import "../styles/footer.css"
-import logo from "../assets/logo.svg"
+import logo from "../assets/logoJuan.svg"
 import twitter from "../assets/Twitter.svg"
 import instagram from "../assets/Instagram.svg"
 import linkedin from "../assets/linkedinsvg.svg"

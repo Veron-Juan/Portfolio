@@ -83,6 +83,7 @@ hr{
     height: 200px;
     background-color: rgb(128, 129, 130);
     border-radius: 30px;
+    object-fit: cover;
     
 }
 

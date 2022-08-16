@@ -10,10 +10,11 @@
     max-width: 1400px;
     margin: 0 auto;
     
+    
 }
 .header-logo{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 85px;
 }
 
 
@@ -88,5 +89,12 @@
     }
     .header-ul{
         display: none;
+    }
+}
+
+@media (max-width:822px){
+    .header-logo{
+        
+        margin-left: 20px;
     }
 }
