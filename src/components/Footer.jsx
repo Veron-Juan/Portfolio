@@ -14,12 +14,21 @@ export default function Footer(){
                 <a href="#home">
                     <img src={logo} className="footer-logo"/>
                 </a>
-                <p className="footer-copyright" >© Copyright 2022</p>
+                <p className="footer-copyright" >© Made by Juan Veron</p>
                 <div className="footer-redes-container" >
-                    <img src={github} />
-                    <img src={linkedin} />
-                    <img src={twitter} />
-                    <img src={instagram} />
+                    <a href="https://github.com/Veron-Juan" target="_blank">
+                        <img src={github} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/juanvp7/" target="_blank">
+                        <img src={linkedin} />
+                    </a>
+                    
+                    <a href="https://twitter.com/Juuan_vp" target="_blank">
+                        <img src={twitter} />
+                    </a>
+                    <a href="https://www.instagram.com/juanvp7/" target="_blank">
+                        <img src={instagram} />
+                    </a>
                 </div>
             </div>
             

@@ -23,10 +23,16 @@ export default function Portfolio(){
                     
                     <div className="portfolio-img1"></div>
                     <h3>Movies API</h3>
-                    <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
+                    <p>Project based mainly on mobile, data is obtained from a movie api, in which I used axios.</p>
                     <div className="portfolio-links_button">
-                    <button className="button-project" ><img src={exterlink}/>Project </button>
-                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                    <a href="https://veron-juan.github.io/Movies-API/"  target="_blank">
+                        <button className="button-project" ><img src={exterlink}/>Project </button>
+                    </a>
+                    <a href="https://github.com/Veron-Juan/Movies-API" target="_blank">
+                        <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                    </a>
+                    
+                    
                     
                     
                 </div>
@@ -38,8 +44,14 @@ export default function Portfolio(){
                     <h3>Reproductor Music React</h3>
                     <p>A template music player made with react, contains css animations. </p>
                     <div className="portfolio-links_button">
-                    <button className="button-project" ><img src={exterlink}/>Project </button>
-                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        <a href="https://rep-template-music.vercel.app/" target="_blank">
+                            <button className="button-project" ><img src={exterlink}/>Project </button>
+                        </a>
+                        <a href="https://github.com/Veron-Juan/rep-music-react" target="_blank">
+                            <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        </a>
+                    
+                    
                     </div>
                     
                 </div>
@@ -47,10 +59,15 @@ export default function Portfolio(){
                     
                     <div className="portfolio-img3"></div>
                     <h3>Random Dogs</h3>
-                    <p>This is one of my first projects, in which I use a REST API, you get random pictures of dogs, you can save them in favorites, delete them and upload a picture of your dog to save it. </p>
+                    <p>you get random pictures of dogs, save them in favorites, delete them and upload a picture of your dog to save it. </p>
                     <div className="portfolio-links_button">
-                    <button className="button-project" ><img src={exterlink}/>Project </button>
-                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        <a href="https://veron-juan.github.io/Random-Dogs/" target="_blank">
+                            <button className="button-project" ><img src={exterlink}/>Project </button>
+                        </a>
+                        <a href="https://github.com/Veron-Juan/Random-Dogs" target="_blank">
+                            <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        </a>
+                    
                     </div>
                     
                 </div>
@@ -61,8 +78,14 @@ export default function Portfolio(){
                     <h3>Score Rabbits</h3>
                     <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
                     <div className="portfolio-links_button">
-                    <button className="button-project" ><img src={exterlink}/>Project </button>
-                    <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        <a href="https://veron-juan.github.io/Score-Rabbits/" target="_blank">
+                            <button className="button-project" ><img src={exterlink}/>Project </button>
+                        </a>
+                        <a href="https://github.com/Veron-Juan/Score-Rabbits" target="_blank">
+                            <button className="button-project"> <img className="abc" src={github}/>Repository</button>
+                        </a>
+                    
+                    
                     </div>
                     
                 </div>

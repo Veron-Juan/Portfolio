@@ -24,10 +24,18 @@ export default function Home(){
                 Aggressive but softly, you place your lips on my lips Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minus reprehenderit asperiores earum necessitatibus quis neque, at corporis labore voluptas adipisci eius.</p>
             </div>
             <div className="home-redes-container" >
-                <img src={github} />
-                <img src={linkedin} />
-                <img src={instagram} />
-                <img src={twitter} />
+            <a href="https://github.com/Veron-Juan" target="_blank">
+                        <img src={github} />
+                    </a>
+                <a href="https://www.linkedin.com/in/juanvp7/" target="_blank">
+                        <img src={linkedin} />
+                    </a>
+                    <a href="https://www.instagram.com/juanvp7/" target="_blank">
+                        <img src={instagram} />
+                    </a>
+                    <a href="https://twitter.com/Juuan_vp" target="_blank">
+                        <img src={twitter} />
+                    </a>
                 
             </div>
             

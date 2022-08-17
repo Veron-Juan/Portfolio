@@ -63,7 +63,7 @@
     }
 }
 
-@media (max-width: 348px){
+@media (max-width: 400px){
 
     .footer{
         display: flex;

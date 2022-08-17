@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 .home-container-text h2, h3, p{
     font-family: 'Anek Latin', sans-serif;
@@ -70,6 +70,7 @@
     align-items: center;
     font-family: 'Anek Latin', sans-serif;
     font-size: 18px;
+    
 
 
 }
@@ -140,9 +141,9 @@
 
 
     .home-container--circle-button{
-        flex-direction: row;
+        margin-top: -35px;
+        margin-bottom: 40px;
         
-        margin: 0 auto;
 
         
     }
@@ -154,7 +155,8 @@
     
     }
     .home-buttoncv{
-        margin-right: 40px;
+        margin-right: 15px;
+        margin-top: -25px;
         width: 180px;
     }
     .home-redes-container{
@@ -169,17 +171,11 @@
         flex-direction: column;
         
         
-    }
-    .home-circle{
-        display: none;
-    }
-    .home-buttoncv{
-        margin-left: 20px;
-        
         
     }
+    
     .home-container-text{
-        margin-bottom: 10px;
+        margin-bottom: 18px;
     }
     .home-container-text h2{
         font-size: 28px;
