@@ -11,10 +11,14 @@
     margin: 0 auto;
     
     
+    
+    
 }
 .header-logo{
     width: 200px;
-    margin-left: 85px;
+    height: 25px;
+    margin-left: 22px;
+    margin-bottom: 12px;
 }
 
 
