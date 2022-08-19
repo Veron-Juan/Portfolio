@@ -11,7 +11,7 @@ export default function Footer(){
     return(
         <footer className="footer">
             <div className="footer-cont">
-                <a href="#home">
+                <a className="a-footer-logo" href="#home">
                     <img src={logo} className="footer-logo"/>
                 </a>
                 <p className="footer-copyright" >© Made by Juan Veron</p>
