@@ -69,6 +69,7 @@
     border: none;
     outline: none;
     text-decoration: none;
+    color: black;
     background-color: #9181fca7;
     /* background-image: linear-gradient(to right, #403ac0, #5c2ea9, #692393, #6e1a7e, #6f146b); */
     border-radius: 30px;
