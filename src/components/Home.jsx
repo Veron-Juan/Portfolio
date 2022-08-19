@@ -12,7 +12,7 @@ export default function Home(){
         <div className="home-container" id="home">
             <div className="home-container--circle-button">
                 <img  className="home-circle" src={foto}/>
-                <a  href={pdf} target="_blank">
+                <a className="home-circle_a" href={pdf} target="_blank">
                 <button className="home-buttoncv">
                     <img className="home-buttoncv-img" src={resume}/> Dowload CV  
                 </button>
