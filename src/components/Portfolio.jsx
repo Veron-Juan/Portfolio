@@ -17,7 +17,7 @@ export default function Portfolio(){
     return(
 
         <div  className="portfolio-container " id="portfolio">
-            <h2>Portfolio</h2>
+            <h2>Projects</h2>
             <div onMouseEnter={changueBg} onMouseLeave={changueBg} className="portfolio">
             <div className="portfolio-links">
                     
@@ -76,7 +76,7 @@ export default function Portfolio(){
                     
                     <div className="portfolio-img4"></div>
                     <h3>Score Rabbits</h3>
-                    <p>this project is a bla bkasdd blasd asdjas sjd asd asasdasds dasdask das </p>
+                    <p>Project made only with html and css in which you can catch a rabbit and score points.</p>
                     <div className="portfolio-links_button">
                         <a href="https://veron-juan.github.io/Score-Rabbits/" target="_blank">
                             <button className="button-project" ><img src={exterlink}/>Project </button>

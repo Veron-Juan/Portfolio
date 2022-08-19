@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  
 }
 
 
@@ -8,6 +9,7 @@ html{
   background: linear-gradient(90deg, #9181fc77 56%, #728ed400 100%) !important; 
   /* background: linear-gradient(99deg, rgba(31,29,38,1) 30%, rgba(18,18,18,0.87718837535014) 99%); */
   height: 100%;
+  
   
 }
 

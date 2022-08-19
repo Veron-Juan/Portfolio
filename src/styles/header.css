@@ -7,7 +7,7 @@
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     
     
@@ -17,15 +17,16 @@
 .header-logo{
     width: 200px;
     height: 25px;
-    margin-left: 22px;
+    
     margin-bottom: 12px;
 }
 
 
 
+
 .header-ul{
     display: flex;
-    margin-right: 80px;
+    
 }
 .header-ul li{
     padding: 0 10px;
@@ -77,15 +78,22 @@
     align-items: center;
     
 }
-.togle-menu-ul li{
+.togle-menu-ul li {
     padding: 15px;
     font-size: 24px;
     font-family: 'Anek Latin', sans-serif;
-    color: #1C1940;
     cursor: pointer;
 }
 .togle-menu-ul li:hover{
     color: white;
+}
+
+.togle-menu-ul li a{
+    text-decoration: none;
+    color: #d1d0db;
+}
+.togle-menu-ul li a:hover{
+    opacity: .6;
 }
 
 @media (max-width:1010px){

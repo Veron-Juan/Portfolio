@@ -6,21 +6,21 @@
     align-items: center;
     margin-top: 150px;
     
+    
 
 }
 
 .portfolio-container h2{
-    font-family: 'Anek Latin', sans-serif;
     font-size: 32px;
     text-align: center;
     margin-top: 40px;
     
 }
 .portfolio{
-    margin: 35px 0;
+    margin: 35px 20px;
     padding: 50px 0;
     background-image: radial-gradient(circle at 78.81% 39.51%, #ffdfff 0, #e1beff 25%, #b89aea 50%, #8c78d2 75%, #817dbf8c 100%);
-    width: 85%;
+    max-width: 1300px;
     height: 100%;
     border-radius: 45px; 
     display: flex;
@@ -42,7 +42,7 @@
 .portfolio-links{
     width: 320px;
     height: 320px;
-    margin: 20px 20px;
+    margin: 10px ;
     background-color: #e5e3ee86;
     display: flex;
     flex-direction: column;
@@ -50,6 +50,7 @@
     border-radius: 20px;
     padding: 10px 0;
     box-shadow: 11px 9px 13px -5px rgba(0,0,0,0.71);
+    gap: 7px;
 
 }
 .portfolio-links:hover{
@@ -62,10 +63,9 @@
     width: 170px;
     height: 200px;
     background: url('../assets/movie-api2.jpg');
-    
     background-size:cover;
     background-repeat:none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 2s;
     object-fit:cover;
     
@@ -77,7 +77,7 @@
     background-position:center;
     background-size: cover;
     background-repeat: none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 2s;
     object-fit:cover;
 }
@@ -89,7 +89,7 @@
     background-position: center;
     background-size:cover;
     background-repeat:none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 1.5s;
     object-fit:cover;
     
@@ -101,7 +101,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 1.5s;
     object-fit:cover;
 }
@@ -113,7 +113,7 @@
     background-position: center;
     background-size:cover; 
     background-repeat: none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 1.6s; 
     object-fit: contain;
 }
@@ -124,7 +124,7 @@
     background-position: center;
     background-size:cover; 
     background-repeat: none;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 1.6s; 
     object-fit: contain;
 }
@@ -136,38 +136,11 @@
     background: url('../assets/score-rabbit.jpg');
     background-size: cover;
     background-repeat: none;
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
-
-
-.portfolio-tecn{
-    display: flex;
-    
-
-}
-.portfolio-tecn p{
-    background-color: rgb(217, 215, 212);
-    border-radius: 5px;
-    padding: 5px;
-    font-family: 'Anek Latin', sans-serif;
-    font-weight: bold;
-    
-
-}
-hr{
-    width: 90%;
-    color: black;
-    
-}
-.portfolio-img{
-    margin-top: 5px;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(128, 129, 130);
-    border-radius: 30px;
-    object-fit: cover;
-    
+.portfolio-links p{
+    text-align: center;
 }
 
 .portfolio-links_button{
@@ -181,14 +154,13 @@ hr{
 .portfolio button{
     width: 106px;
     height: 28px;
-    margin: 10px;
+    margin: 0 7px;
     cursor: pointer;
     border-radius: 15px;
     border: none;
     background-color: #5f54abdc;
     color: rgba(224, 230, 236, 0.712);
     font-weight: bold;
-    font-family: 'Anek Latin', sans-serif;
     font-size: 14px;
     
 }
@@ -222,7 +194,7 @@ a{
 
 @media (max-width: 432px){
     .portfolio-links{
-        width: 210px;
+        width: 240px;
         height: 285px;
         
     

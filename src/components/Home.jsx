@@ -5,23 +5,25 @@ import instagram from "../assets/Instagram.svg"
 import linkedin from "../assets/linkedinsvg.svg"
 import github from "../assets/github.svg"
 import foto from "../assets/photoJuan.jpg"
+import pdf from "../assets/JuanVeronCV.pdf"
 
 export default function Home(){
     return(
         <div className="home-container" id="home">
             <div className="home-container--circle-button">
                 <img  className="home-circle" src={foto}/>
+                <a  href={pdf} target="_blank">
                 <button className="home-buttoncv">
-                    <img className="home-buttoncv-img" src={resume}/>Download CV
+                    <img className="home-buttoncv-img" src={resume}/> Dowload CV  
                 </button>
+                </a>
+                
             </div>
             
             <div className="home-container-text">
                 <h2>Welcome! i'm Juan Veron</h2>
                 <h3>Frontend Developer</h3>
-                <p>Flowers open when they feel the sunlight
-                Moonrise, tide change right before our eyes
-                Aggressive but softly, you place your lips on my lips Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus minus reprehenderit asperiores earum necessitatibus quis neque, at corporis labore voluptas adipisci eius.</p>
+                <p>I created several web projects using JavaScript, i worked with vanilla Javascript and React JS. I'm in continuous learning about lastest web technologies and my goal is to grow as a developer and create apps with an amazing UI.</p>
             </div>
             <div className="home-redes-container" >
             <a href="https://github.com/Veron-Juan" target="_blank">
