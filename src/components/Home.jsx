@@ -14,7 +14,7 @@ export default function Home(){
                 <img  className="home-circle" src={foto}/>
                 <a className="home-circle_a" href={pdf} target="_blank">
                 <button className="home-buttoncv">
-                    <img className="home-buttoncv-img" src={resume}/> Dowload CV  
+                    <img className="home-buttoncv-img" src={resume}/> Download CV  
                 </button>
                 </a>
                 
