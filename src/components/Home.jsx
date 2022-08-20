@@ -23,7 +23,7 @@ export default function Home(){
             <div className="home-container-text">
                 <h2>Welcome! i'm Juan Veron</h2>
                 <h3>Frontend Developer</h3>
-                <p>I created several web projects using JavaScript, i worked with vanilla Javascript and React JS. I'm in continuous learning about lastest web technologies and my goal is to grow as a developer and create apps with an amazing UI.</p>
+                <p>I created several web projects using JavaScript and worked with vanilla Javascript and other frameworks like React JS. I'm in continuous learning about the lastest web technologies and, my goal is to grow as a developer and create apps with an amazing UI.</p>
             </div>
             <div className="home-redes-container" >
             <a href="https://github.com/Veron-Juan" target="_blank">
