@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     margin-left: 10px;
+    animation:  0.5s animation-foto ease-in-out;
     
     
 }
@@ -27,7 +28,24 @@
     -webkit-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
     -moz-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
     box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
+    
+    
+
 }
+
+
+@keyframes animation-foto{
+    0%{
+        transform: translateX(-150px) scale(0.3);
+        
+    }
+   
+    100%{
+        transform: translateX(0) scale(1);
+        
+    }
+}
+
 
 .home-circle_a{
     text-decoration: none;
@@ -40,8 +58,18 @@
     align-items: center;
     margin-bottom: 50px;
     gap: 7px;
-    
+    animation:  0.5s animation-text ease-in-out;
+}
 
+@keyframes animation-text{
+    0%{
+        transform:  scale(0.3);
+        
+    }
+    100%{
+        transform:  scale(1);
+        
+    }
 }
 
 
@@ -59,12 +87,9 @@
     font-size: 19px;
     margin: 0 auto;
     text-align: center;
-    
-    
-    
-    
-    
+      
 }
+
 
 .home-buttoncv{
     height: 70px;
@@ -97,7 +122,6 @@
 
 
 .home-redes-container{
-    
     width: 100%;
     position: absolute;
     top: 680px;
@@ -106,11 +130,19 @@
     align-items: center;
     justify-content: flex-end;
     gap: 15px;
-    
-    
-    
-    
+    animation:  0.5s animation-redes ease-in-out;
 }
+@keyframes animation-redes{
+    0%{
+        transform: translateX(600px)  scale(0.3);
+        
+    }
+    100%{
+        transform: translateX(0) scale(1);
+        
+    }
+}
+
 
 .home-redes-container img{
     width: 31px;

@@ -21,7 +21,10 @@
     margin-bottom: 12px;
 }
 
-
+.header-logo:hover{
+    transform: scale(1.4);
+    transition: .55s;
+}
 
 
 .header-ul{

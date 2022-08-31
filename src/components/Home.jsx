@@ -8,6 +8,7 @@ import foto from "../assets/photoJuan.jpg"
 import pdf from "../assets/JuanVeronCV.pdf"
 
 export default function Home(){
+
     return(
         <div className="home-container" id="home">
             <div className="home-container--circle-button">
@@ -40,6 +41,7 @@ export default function Home(){
                     </a>
                 
             </div>
+            
             
         </div>
 
