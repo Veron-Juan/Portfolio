@@ -62,7 +62,7 @@
 .portfolio-img1{
     width: 170px;
     height: 200px;
-    background: url('../assets/movie-api2.jpg');
+    background: url('../assets/movie-api-new.png');
     background-size:cover;
     background-repeat:none;
     border-radius: 10px;
@@ -73,7 +73,7 @@
 .portfolio-img1:hover{
     width: 170px;
     height: 200px;
-    background: url('../assets/movie-api1.jpg');
+    background: url('../assets/movies-api-new2.png');
     background-position:center;
     background-size: cover;
     background-repeat: none;

@@ -23,7 +23,7 @@ export default function Portfolio(){
                     
                     <div className="portfolio-img1"></div>
                     <h3>Movies API</h3>
-                    <p>Project based mainly on mobile, data is obtained from a movie api, in which I used axios.</p>
+                    <p>Project currently based mainly on mobile, data is obtained from a movie api, in which I used axios. </p>
                     <div className="portfolio-links_button">
                     <a href="https://veron-juan.github.io/Movies-API/"  target="_blank">
                         <button className="button-project" ><img src={exterlink}/>Project </button>
