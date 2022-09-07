@@ -25,6 +25,7 @@
     border-radius: 45px; 
     display: flex;
     justify-content: center;
+
     flex-wrap:wrap;
     align-content: center;
     box-shadow: 11px 9px 13px -5px rgba(0,0,0,0.71);
@@ -40,9 +41,9 @@
 }
 
 .portfolio-links{
-    width: 320px;
-    height: 320px;
-    margin: 10px ;
+    width: 420px;
+    height: 620px;
+    margin: 0 40px 40px 0 ;
     background-color: #e5e3ee86;
     display: flex;
     flex-direction: column;
@@ -54,70 +55,73 @@
 
 }
 .portfolio-links:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
     transition: .7s;
     
 }
 
 .portfolio-img1{
-    width: 170px;
-    height: 200px;
-    background: url('../assets/movie-api-new.png');
-    background-size:cover;
+    width: 245px;
+    height: 800px;
+    background: url('../assets/movie-api-iphone.png');
+    background-size: cover;
     background-repeat:none;
     border-radius: 10px;
     transition: 2s;
-    object-fit:cover;
+    object-fit:contain;
     
 }
 .portfolio-img1:hover{
-    width: 170px;
-    height: 200px;
-    background: url('../assets/movies-api-new2.png');
+    width: 245px;
+    height: 800px;
+    background: url('../assets/movie-api-iphone-parasite.png');
     background-position:center;
     background-size: cover;
     background-repeat: none;
     border-radius: 10px;
     transition: 2s;
-    object-fit:cover;
+    object-fit:contain;
 }
 
 .portfolio-img2{
-    width: 200px;
-    height: 200px;
-    background: url('../assets/repMusic1.jpg');
-    background-position: center;
+    width: 245px;
+    height: 800px;
+    background: url('../assets/forever-template-music.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat:none;
+    object-fit:cover;
+    border-radius: 10px;
+    /* background-position: center;
     background-size:cover;
     background-repeat:none;
     border-radius: 10px;
     transition: 1.5s;
-    object-fit:cover;
+    object-fit:cover; */
     
 }
-.portfolio-img2:hover{
-    width: 200px;
-    height: 200px;
-    background: url('../assets/repMusic2.jpg');
+/* .portfolio-img2:hover{
+    width: 255px;
+    height: 400px;
+    background: url('../assets/rep-template-music.png');
     background-position: center;
     background-size: cover;
     background-repeat: none;
     border-radius: 10px;
     transition: 1.5s;
     object-fit:cover;
-}
+} */
 
 .portfolio-img3{
-    width: 200px;
-    height: 200px;
-    background: url('../assets/randomdogs.jpg');
-    background-position: center;
-    background-size:cover; 
+    width: 245px;
+    height: 800px;
+    background: url('../assets/randomdogs.png');
+    background-position:top;
+    background-size:cover;
     background-repeat: none;
     border-radius: 10px;
-    transition: 1.6s; 
-    object-fit: contain;
 }
-.portfolio-img3:hover{
+/* .portfolio-img3:hover{
     width: 200px;
     height: 200px;
     background: url('../assets/favorites.jpg');
@@ -127,13 +131,13 @@
     border-radius: 10px;
     transition: 1.6s; 
     object-fit: contain;
-}
+} */
 
 
 .portfolio-img4{
-    width: 180px;
-    height: 200px;
-    background: url('../assets/score-rabbit.jpg');
+    width: 245px;
+    height: 800px;
+    background: url('../assets/scorerab.png');
     background-size: cover;
     background-repeat: none;
     border-radius: 10px;
@@ -190,12 +194,20 @@ a{
     .portfolio-container{
         margin-top: 20px;
     }
+    .portfolio-links{
+        
+        margin: 20px;
+        
+    
+    }
+
 }
 
 @media (max-width: 432px){
     .portfolio-links{
-        width: 240px;
-        height: 285px;
+        width: 270px;
+        height: 633px;
+        margin: 20px;
         
     
     }
@@ -209,15 +221,13 @@ a{
     }
 
     .portfolio-img2{
-        width: 150px;
+        width: 254px;
+        height: 800px;
     }
-    .portfolio-img2:hover{
-        width: 150px;
-    }
+    
     .portfolio-img3{
-        width: 150px;
+        width: 254px;
+        height: 800px;
     }
-    .portfolio-img3:hover{
-        width: 150px;
-    }
+    
 }
