@@ -10,7 +10,7 @@ import pdf from "../assets/JuanVeronCV.pdf"
 export default function Home(){
 
     return(
-        <div className="home-container" id="home">
+        <div className="home-container"  id="home">
             <div className="home-container--circle-button">
                 <img  className="home-circle" src={foto}/>
                 <a className="home-circle_a" href={pdf} target="_blank">
