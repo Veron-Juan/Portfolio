@@ -2,8 +2,17 @@ import "../styles/contact.css"
 import React, { useRef } from 'react';
 import emailjs from "@emailjs/browser"
 import gmail from "../assets/icons8-gmail.svg"
+import swal from 'sweetalert';
 
-
+const great = (response)=>{
+    console.log(response);
+    swal({
+        title: "Your message has been sent correctly",
+        
+        icon: "success",
+      });
+    
+}
 
 export default function Contact(){
     const form = useRef();
@@ -13,7 +22,7 @@ export default function Contact(){
         
         
         emailjs.sendForm("service_6jp1hph", "template_vbe9o8p",event.target,"ao6vQm60-9HxD_Ri3")
-        .then(response => console.log(response))
+        .then(response => great(response))
         .catch(error => console.log(error))
         event.target.reset()  
     }

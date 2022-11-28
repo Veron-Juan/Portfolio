@@ -6,10 +6,7 @@
     margin: 0 auto;
     position: relative;
     height: 590px;
-    
-    
-    
-
+    border: 1px solid red;
 }
 .home-container--circle-button{
     display: flex;
@@ -17,6 +14,7 @@
     align-items: center;
     margin-left: 10px;
     animation:  0.5s animation-foto ease-in-out;
+    
     
     
 }

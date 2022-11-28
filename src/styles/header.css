@@ -66,11 +66,12 @@
     position: absolute;
     top: 60px;
     right: 0;
-    width: 100%;
-    height: 100vh;
+    width: 354px;
+    height: 356px;
     display: flex;
     justify-content: center;
     z-index: 100;
+    border-radius: 18px 0 0 18px;
     
      
     
@@ -101,7 +102,7 @@
     opacity: .6;
 }
 
-@media (max-width:1010px){
+@media (max-width:961px){
     .header-nav{
         display: block;
     }

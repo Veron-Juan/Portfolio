@@ -6,6 +6,9 @@ import react from "../assets/skills/react.svg"
 import python from "../assets/skills/python.svg"
 import git from "../assets/skills/git.svg"
 import figma from "../assets/skills/figma.svg"
+import LazyLoad from 'react-lazy-load';
+
+
 
 
 
@@ -13,8 +16,9 @@ export default function Skills(){
     return(
         <div className="container-skills" id="skills">
             <h2>Skills</h2>
+            <LazyLoad threshold={.65} offset={-115}>
             <div className="container-skills--img">
-                <img src={html}/>
+            <img src={html}/>
                 <img src={css}/>
                 <img src={js}/>
                 <img src={react}/>
@@ -22,6 +26,11 @@ export default function Skills(){
                 <img src={git}/>
                 <img src={figma}/>
             </div>
+                
+            </LazyLoad>
+            {/* <div className="container-skills--img">
+                
+            </div> */}
             
         </div>
     )
