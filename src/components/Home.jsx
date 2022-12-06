@@ -46,6 +46,11 @@ p{
   font-weight: bold;
   color: #413970;
 }
+
+a{
+  text-decoration: none;
+  color: #413970;
+}
 `
 
 const ContainerImagePortfolio = styled.div`
@@ -160,7 +165,9 @@ export default function Home() {
         </p>
       <ButtonCV>
         {/* <img src={resume}/> */}
-        <h4>Download CV</h4>
+        <h4><a  href={pdf} target="_blank">Download CV</a></h4>
+        
+
         
       </ButtonCV>
       </ContainerTtitles>

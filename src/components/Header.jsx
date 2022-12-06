@@ -54,7 +54,7 @@ transform: ${({ efecto  }) => (efecto  ? "rotate(-45deg)" : "rotate(0)")};
 
 export default function Header(){
     const [togle, setTogle] = useState(false);
-    // const [menu, setmenu] = useState(false);
+    
 
     const menu = ()=>{
         setTogle(!togle);
