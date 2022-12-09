@@ -43,8 +43,8 @@ export default function Portfolio(){
             <CardProject
             image={foodapp}
             title="Food app"
-            description="Project currently based mainly on mobile, data is obtained from a
-            movie api, in which I used axios."
+            description="This is a food project, in which you can select and buy several fictitious items that will be stored in the shopping cart. I used the react hook useContext as a state handler.
+            "
             urlDemo="https://food-app-ebon-five.vercel.app/"
             urlRepo="https://github.com/Veron-Juan/food-app"
             />
@@ -53,8 +53,7 @@ export default function Portfolio(){
             <CardProject
             image={moviesp}
             title="Movies Api"
-            description="Project currently based mainly on mobile, data is obtained from a
-            movie api, in which I used axios."
+            description="Project of a movie page, it's made with vanilla javascript and css, you can save the movies you like in favorites, search movies, see details and more things."
             urlDemo="https://veron-juan.github.io/Movies-API/"
             urlRepo="https://github.com/Veron-Juan/food-app"
             />

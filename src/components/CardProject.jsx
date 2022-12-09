@@ -15,9 +15,62 @@ const breakAnimation = keyframes`
         
     }
 ` 
+const rotate360 = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
+const spin = keyframes`
+to{
+  transform: rotate(360deg);
+}
+`
+
+const Loader = styled.div`
+width: 60px;
+height: 60px;
+border-radius: 50%;
+animation: ${spin} 1.2s linear infinite;
+position: absolute;
+top: 123px;
+left: 47px;
+
+&::before, ::after{
+  
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+
+  top: 50%;
+  left: 50%;
+  
+}
+&::before{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #f0c 0%, #80f 100%);
+  transform: translate(-50%, -50%);
+}
+&::after{
+  width: 85%;
+  height: 85%;
+  background-color: #8c78d2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+`
+
 
 
 const Project  = styled.div`
+position: relative;
 border-radius: 15px;
 background-image: radial-gradient(circle at 78.81% 39.51%, #ffdfff 0, #e1beff 25%, #b89aea 50%, #8c78d2 75%, #817dbf8c 100%);
 display: flex;
@@ -47,6 +100,9 @@ min-height: 320px;
 max-height: 320px;
 min-width: 152px;
 object-fit: fill;
+z-index: 10;
+
+
 `
 
 const ContainerLinksProject = styled.div`
@@ -55,7 +111,7 @@ justify-content: center;
 align-items: center;
 
 div{
-    width: 80px;
+    width: 75px;
     height: 30px;
     border-radius: 10px;
     padding: 5px;
@@ -63,18 +119,19 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 8px;
 }
 
 a{
   text-decoration: none;
   color: #2f253f;
-  width: 80px;
+  width: 72px;
   height: 30px;
   border-radius: 10px;
   padding: 5px;
   background-color: #ced1e8;
-  margin: 10px;
+  margin: 16px 8px 0 8px;
+  
   display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +174,11 @@ export default function CardProject(props){
         <>
          <LazyContain   threshold={.2} offset={-105}>
          <Project >
-          <ImgProject src={props.image} />
+          
+          <Loader/>
+          
+          
+          <ImgProject src={props.image}  />
           <ContainerInfo>
           <h3>{props.title}</h3>
           <p>
