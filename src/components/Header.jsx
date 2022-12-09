@@ -14,6 +14,7 @@ background:transparent;
 gap: .47rem;
 padding-right: 8px;
 cursor: pointer;
+margin-top: 17px;
 
 > div{
   background:#413970;
