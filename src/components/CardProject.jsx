@@ -38,8 +38,10 @@ const TecnologiesUsedContainer = styled.div`
 display: flex;
 /* max-width: 180px; */
 align-items: center;
-justify-content: center;
-/* margin: 5px 0 0 26px; */
+justify-content: flex-start !important;
+/* margin: 5px 0 0 42px; */
+width: 300px;
+
 
 gap: 14px;
 img{
@@ -225,13 +227,16 @@ export default function CardProject(props){
           <ImgProject src={props.image}  />
           
           <TecnologiesUsedContainer>
-          <img src={html} alt="html"/>
-          <img src={css} alt="css"/>
-          <img src={js} alt={props.altjs} />
+            
+            <img src={html} alt="html"/>
+            <img src={css} alt="css"/>
+            
+          <img src={props.js} alt={props.altjs} />
+          
           <img src={props.react} alt={props.altreact} />
           
           </TecnologiesUsedContainer>
-          <div>
+          
           
           <ContainerInfo>
           <p style={{fontSize:"17px", padding:"10px 15px"}}>
@@ -251,7 +256,7 @@ export default function CardProject(props){
           </ContainerLinksProject>
           
           </ContainerInfo>
-          </div>
+          
           
         </Project>
         </LazyContain>

@@ -1,9 +1,10 @@
 import styled from "styled-components"
 import CardProject from "./CardProject"
-import forever from "../assets/musicforever.jpg"
+import forever from "../../public/forever.jpg"
 import score from "../assets/scorerab.png"
 import foodapp from "../../public/food_app.png"
-import moviesp from "../assets/movieapi.png"
+import moviesp from "../../public/movie_api.png"
+import randomdogs from "../../public/dogs.random.jpg"
 import html from "../assets/skills/html.svg"
 import css from "../assets/skills/css.svg"
 import js from "../assets/skills/js.svg"
@@ -66,7 +67,7 @@ export default function Portfolio(){
 
             <CardProject
             
-            image="../../public/movie_api.png"
+            image={moviesp}
             title="Movies Api"
             js={js}
             altjs="javascript"
@@ -78,7 +79,7 @@ export default function Portfolio(){
             
 
             <CardProject
-            image="../../public/dogs.random.jpg"
+            image={randomdogs}
             title="Random Dogs"
             description="you get random pictures of dogs, save them in favorites, delete them and upload a picture of your dog to save it."
             js={js}
@@ -89,7 +90,7 @@ export default function Portfolio(){
             />
             <CardProject 
             // image={forever}
-            image="../../public/forever.jpg"
+            image={forever}
 
             title="Reproductor Music React"
             description="A template music player made with react, contains css animations.."
@@ -117,7 +118,8 @@ export default function Portfolio(){
             repo={<a href="https://github.com/Veron-Juan/Score-Rabbits" target="_blank">repo</a>}
             demo={<a href="https://veron-juan.github.io/Score-Rabbits/"  target="_blank">demo</a>}
             
-            />
+            >
+            </CardProject>
             
             
       
