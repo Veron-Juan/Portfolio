@@ -3,6 +3,10 @@ import github from "../assets/github.svg"
 import exterlink from "../assets/external-link.svg"
 import LazyLoad from 'react-lazy-load';
 
+import html from "../assets/skills/html.svg"
+import css from "../assets/skills/css.svg"
+import js from "../assets/skills/js.svg"
+import react from "../assets/skills/react.svg"
 
 const breakAnimation = keyframes`
 0%{
@@ -28,6 +32,25 @@ const spin = keyframes`
 to{
   transform: rotate(360deg);
 }
+`
+
+const TecnologiesUsedContainer = styled.div`
+display: flex;
+/* max-width: 180px; */
+align-items: center;
+justify-content: center;
+/* margin: 5px 0 0 26px; */
+
+gap: 14px;
+img{
+  width: 40px;
+  &:nth-child(3) {
+  width: 51px;
+  }
+}
+
+
+
 `
 
 const Loader = styled.div`
@@ -70,38 +93,65 @@ left: 47px;
 
 
 const Project  = styled.div`
-position: relative;
+
 border-radius: 15px;
-background-image: radial-gradient(circle at 78.81% 39.51%, #ffdfff 0, #e1beff 25%, #b89aea 50%, #8c78d2 75%, #817dbf8c 100%);
+background-color: #5f4ecd26;
+/* background-image: radial-gradient(circle at 78.81% 39.51%, #ffdfff 0, #e1beff 25%, #b89aea 50%, #8c78d2 75%, #817dbf8c 100%); */
 display: flex;
-min-width: 300px;
-min-height: 320px;
-opacity: 0.8;
-cursor: pointer;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-width: 338px;
+max-width: 728px;
+box-shadow: inset 0px 0px 2px 0px black;
+/* box-shadow: 0 0 2.6px 0px black; */
+/* min-height: 550px;
+max-width: 500px; */
+
+
+/* min-width: 300px;
+min-height: 320px; */
+/* opacity: 0.8; */
+
 animation: ${breakAnimation}  .6s  ease-in-out;
-&:hover{
+/* &:hover{
   opacity: 1;
   transform: scale(1.05);
   transition: .7s;
-}
-@media (max-width: 968px) {
+} */
+/* @media (max-width: 968px) {
   opacity: 1;
   }
 
 img{
     border-radius: 15px;
 
+} */
+
+&:hover{
+  transform: scale(1.05);
+  transition: all .5s;
+  
+}
+h2{
+  margin-top: 8px;
+  
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 
 `
 const ImgProject = styled.img`
-min-height: 320px;
-max-height: 320px;
-min-width: 152px;
-object-fit: fill;
-z-index: 10;
-
+margin: 15px;
+border-radius: 15px;
+height: 300px;
+object-fit: contain;
+width: 85%;
 
 `
 
@@ -111,10 +161,10 @@ justify-content: center;
 align-items: center;
 
 div{
-    width: 75px;
+    width: 100%;
     height: 30px;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 7px;
     background-color: #ced1e8;
     display: flex;
     align-items: center;
@@ -125,19 +175,15 @@ div{
 a{
   text-decoration: none;
   color: #2f253f;
-  width: 72px;
+  width: 100%;
   height: 30px;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 7px;
+  padding: 10px;
   background-color: #ced1e8;
-  margin: 16px 8px 0 8px;
-  
+  margin: 16px 8px 10px 8px;
   display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-
 }
 
 `
@@ -174,20 +220,29 @@ export default function CardProject(props){
         <>
          <LazyContain   threshold={.2} offset={-105}>
          <Project >
-          
-          <Loader/>
-          
-          
+         <h2>{props.title}</h2>
+          {/* <Loader/> */}
           <ImgProject src={props.image}  />
+          
+          <TecnologiesUsedContainer>
+          <img src={html} alt="html"/>
+          <img src={css} alt="css"/>
+          <img src={js} alt={props.altjs} />
+          <img src={props.react} alt={props.altreact} />
+          
+          </TecnologiesUsedContainer>
+          <div>
+          
           <ContainerInfo>
-          <h3>{props.title}</h3>
-          <p>
+          <p style={{fontSize:"17px", padding:"10px 15px"}}>
             {props.description}
           </p>
+          {/* <h3>{props.title}</h3> */}
+          
           <ContainerLinksProject>
             <a href={props.urlDemo} target="_blank">
               <img src={exterlink} />
-              <p>Demo</p>
+              <p>Page</p>
             </a>
             <a href={props.urlRepo} target="_blank">
               <img style={{ width: "22px" }} src={github} />
@@ -196,6 +251,8 @@ export default function CardProject(props){
           </ContainerLinksProject>
           
           </ContainerInfo>
+          </div>
+          
         </Project>
         </LazyContain>
         

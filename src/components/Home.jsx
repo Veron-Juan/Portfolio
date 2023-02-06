@@ -1,5 +1,5 @@
 // import "../styles/home.css";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import resume from "../assets/Resume.svg";
 import twitter from "../assets/Twitter.svg";
 import instagram from "../assets/Instagram.svg";
@@ -8,6 +8,43 @@ import github from "../assets/github.svg";
 import foto from "../assets/photoJuan.jpg";
 import pdf from "../assets/JuanVeronCV.pdf";
 import down from "../assets/DoubleDown.svg"
+import Card from "./Card";
+
+const animationfoto = keyframes`
+ 0%{
+        transform: translateX(-150px) scale(0.3);
+        
+    }
+   
+    100%{
+        transform: translateX(0) scale(1);
+        
+    }
+`
+
+const animationtext = keyframes`
+
+    0%{
+        transform:  scale(0.3);
+        
+    }
+    100%{
+        transform:  scale(1);
+        
+    }
+
+`
+
+const animationredes = keyframes`
+0%{
+        transform: translateX(600px)  scale(0.3);
+        
+    }
+    100%{
+        transform: translateX(0) scale(1);
+        
+    }
+`
 
 const HomeContainer = styled.div`
   display: flex;
@@ -51,6 +88,12 @@ a{
   text-decoration: none;
   color: #413970;
 }
+:hover{
+  -webkit-box-shadow: 6px 9px 6px -5px rgba(0,0,0,0.63);
+    -moz-box-shadow: 6px 9px 6px -5px rgba(0,0,0,0.63);
+    box-shadow: 4px 4px 9px -5px rgba(0,0,0,0.63);
+    background-color: #7c6ce2e0;
+}
 `
 
 const ContainerImagePortfolio = styled.div`
@@ -61,6 +104,7 @@ const ContainerImagePortfolio = styled.div`
   -webkit-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
   -moz-box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
   box-shadow: 6px 2px 6px -2px rgba(0,0,0,0.31);
+  animation: ${animationfoto}  .7s;
   img{
     width: 250px;
     border-radius: 50%;
@@ -78,6 +122,7 @@ const ContainerTtitles = styled.div`
   flex-direction: column;
   align-items: center;
   color: #413970;
+  animation: ${animationtext} .7s;
   /* margin-bottom: 50px; */
   gap: 7px;
   /* animation:  0.5s animation-text ease-in-out; */
@@ -123,7 +168,7 @@ const ContainerRedes = styled.div`
   align-items: center;
   justify-content: flex-end;
   gap: 15px;
-
+  animation: ${animationredes} .7s;
   img{
     width: 25px;
   }
@@ -143,6 +188,7 @@ const ContainerRedes = styled.div`
 export default function Home() {
   return (
     <HomeContainer id="home">
+      
       <ContainerImagePortfolio>
         <img src={foto} alt="foto portada"  />
       </ContainerImagePortfolio>
@@ -158,10 +204,9 @@ export default function Home() {
         <h2>Welcome! i'm Juan Veron</h2>
         <h3>Frontend Developer</h3>
         <p>
-          I created several web projects using JavaScript and worked with
-          vanilla Javascript and React JS. I'm in continuous learning about the
+          I created several web projects using vanilla JavaScript and React JS. I'm in continuous learning about the
           lastest web technologies and, my goal is to grow as a developer and
-          create apps with an amazing UI.
+          develop amazing applications with a great team.
         </p>
       <ButtonCV>
         {/* <img src={resume}/> */}
