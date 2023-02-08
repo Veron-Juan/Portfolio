@@ -5,6 +5,7 @@ import score from "../assets/scorerab.png"
 import foodapp from "../../public/food_app.png"
 import moviesp from "../../public/movie_api.png"
 import randomdogs from "../../public/dogs.random.jpg"
+import rym from "../../public/rickandmortyproject.png"
 import html from "../assets/skills/html.svg"
 import css from "../assets/skills/css.svg"
 import js from "../assets/skills/js.svg"
@@ -47,6 +48,25 @@ export default function Portfolio(){
         
         <h2 style={{textAlign:"center", margin:"70px 0 56px 0"}}>Projects</h2>
       <ContainerProjects id="portfolio">
+          <CardProject 
+            image={rym}
+            title="Rick and Morty Page"
+            description="The page through the external service of an API
+            shows us the characters and episodes of the series, you
+            can save the characters you like in favorites, delete them,
+            search for characters by filtering, see details of each
+            character and information of each chapter.
+            "
+            js={js}
+            altjs="javascript"
+            react={react}
+            redux={true}
+            altreact="react"
+            urlDemo="https://rickandmortypage.vercel.app/"
+            urlRepo="https://github.com/Veron-Juan/rickandmorty-page"
+            
+            />
+
 
 
             <CardProject 
@@ -93,7 +113,7 @@ export default function Portfolio(){
             image={forever}
 
             title="Reproductor Music React"
-            description="A template music player made with react, contains css animations.."
+            description="A template music player made with react, contains css animations."
             js={js}
             altjs="javascript"
             react={react}

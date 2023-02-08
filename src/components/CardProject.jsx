@@ -234,6 +234,8 @@ export default function CardProject(props){
           <img src={props.js} alt={props.altjs} />
           
           <img src={props.react} alt={props.altreact} />
+
+          <img style={{width:"65px"}} src={props.redux? "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" : ""}     />
           
           </TecnologiesUsedContainer>
           
