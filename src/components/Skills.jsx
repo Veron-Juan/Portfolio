@@ -6,6 +6,13 @@ import react from "../assets/skills/react.svg"
 import python from "../assets/skills/python.svg"
 import git from "../assets/skills/git.svg"
 import figma from "../assets/skills/figma.svg"
+import node from "../assets/skills/node.svg"
+import mongodb from "../assets/skills/mongodb.svg"
+import express from "../assets/skills/express.svg"
+import redux from "../assets/skills/redux.svg"
+
+
+
 import LazyLoad from 'react-lazy-load';
 
 
@@ -21,10 +28,14 @@ export default function Skills(){
             <img src={html}/>
                 <img src={css}/>
                 <img src={js}/>
-                <img src={react}/>
                 <img src={python}/>
+                <img src={react}/>
+                <img src={redux}/>
                 <img src={git}/>
                 <img src={figma}/>
+                <img src={node}/>
+                <img src={express}/>
+                <img src={mongodb}/>
             </div>
                 
             </LazyLoad>
