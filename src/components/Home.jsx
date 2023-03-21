@@ -6,9 +6,8 @@ import instagram from "../assets/Instagram.svg";
 import linkedin from "../assets/linkedinsvg.svg";
 import github from "../assets/github.svg";
 import foto from "../assets/photoJuan.jpg";
-import pdf from "../assets/VeronJuanCV.pdf";
-import down from "../assets/DoubleDown.svg"
-import Card from "./Card";
+import pdf from "../assets/VeronJuan.CV.pdf";
+
 
 const animationfoto = keyframes`
  0%{
