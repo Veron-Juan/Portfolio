@@ -6,6 +6,8 @@ import foodapp from "../../public/food_app.png"
 import moviesp from "../../public/movie_api.png"
 import randomdogs from "../../public/dogs.random.jpg"
 import rym from "../../public/rickandmortyproject.png"
+import mascotas from "../../public/mascotas.jpg"
+import lofi from "../../public/lofi.jpg"
 import html from "../assets/skills/html.svg"
 import css from "../assets/skills/css.svg"
 import js from "../assets/skills/js.svg"
@@ -23,7 +25,7 @@ const ContainerProjects = styled.div`
     display: grid;
     gap: 80px;
     /* grid-auto-rows: 440px; */
-    grid-template-columns: repeat(auto-fill, minmax(338px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(438px, 1fr));
     /* @media (max-width: 813px) {
     grid-auto-rows: 650px;
     }
@@ -48,6 +50,42 @@ export default function Portfolio(){
         
         <h2 style={{textAlign:"center", margin:"70px 0 56px 0"}}>Projects</h2>
       <ContainerProjects id="portfolio">
+
+      <CardProject
+        image={lofi}
+        title="In Process..."
+        description="Personal project still under construction, in which a community of people can be created to share their lofi music playlists for studying or relaxing..
+            "
+            js={js}
+            altjs="javascript"
+            react={react}
+            redux={true}
+            express={true}
+            mongodb={true}
+            altreact="react"
+        
+        />
+
+        <CardProject
+        image={mascotas}
+        title="+Cotas App"
+        description="I worked on a web application as part of a 6-member team with the goal of finding and publishing lost pets in Resistencia and Corrientes. The application contains detailed information about the lost pet, including the possible exact location where it was last seen or where it was found through the Google Maps API.
+            "
+            js={js}
+            altjs="javascript"
+            react={react}
+            redux={true}
+            express={true}
+            mongodb={true}
+            altreact="react"
+            urlDemo="https://mas-cotas.vercel.app/"
+            urlRepo="https://github.com/Veron-Juan/Devlights-final-project"
+        
+        />
+
+
+
+
           <CardProject 
             image={rym}
             title="Rick and Morty Page"

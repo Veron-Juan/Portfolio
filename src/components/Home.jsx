@@ -6,7 +6,7 @@ import instagram from "../assets/Instagram.svg";
 import linkedin from "../assets/linkedinsvg.svg";
 import github from "../assets/github.svg";
 import foto from "../assets/photoJuan.jpg";
-import pdf from "../assets/VeronJuan.CV.pdf";
+import pdf from "../assets/JuanJVeron.pdf";
 
 
 const animationfoto = keyframes`
@@ -126,18 +126,18 @@ const ContainerTtitles = styled.div`
   gap: 7px;
   /* animation:  0.5s animation-text ease-in-out; */
   h2{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: lighter;
     @media (min-width: 961px) {
-    font-size: 38px;
+    font-size: 60px;
     }
   }
 
   h3{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     @media (min-width: 961px) {
-    font-size: 32px;
+    font-size: 46px;
     }
   }
 
@@ -145,7 +145,7 @@ const ContainerTtitles = styled.div`
     margin: 0 auto;
     text-align: justify;
     padding: 0 18px;
-    font-size: 19px;
+    font-size: 22px;
     @media (min-width: 961px) {
       padding: 0 88px;
     
@@ -203,9 +203,7 @@ export default function Home() {
         <h2>Welcome! i'm Juan Veron</h2>
         <h3>Frontend Developer</h3>
         <p>
-          I created several web projects using vanilla JavaScript and React JS. I'm in continuous learning about the
-          lastest web technologies and, my goal is to grow as a developer and
-          develop amazing applications with a great team.
+        I have created several web projects using vanilla JavaScript and React JS as main technologies. I am continuously learning about the latest web technologies and, my goal is to grow as a developer and develop amazing applications with a great team.
         </p>
       <ButtonCV>
         {/* <img src={resume}/> */}

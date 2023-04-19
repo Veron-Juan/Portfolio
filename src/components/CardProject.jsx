@@ -5,6 +5,8 @@ import LazyLoad from 'react-lazy-load';
 
 import html from "../assets/skills/html.svg"
 import css from "../assets/skills/css.svg"
+import express from "../assets/skills/express.svg"
+import mongodb from "../assets/skills/mongodb.svg"
 import js from "../assets/skills/js.svg"
 import react from "../assets/skills/react.svg"
 
@@ -38,7 +40,7 @@ const TecnologiesUsedContainer = styled.div`
 display: flex;
 /* max-width: 180px; */
 align-items: center;
-justify-content: flex-start !important;
+justify-content: flex-start ;
 /* margin: 5px 0 0 42px; */
 width: 300px;
 
@@ -55,42 +57,7 @@ img{
 
 `
 
-const Loader = styled.div`
-width: 60px;
-height: 60px;
-border-radius: 50%;
-animation: ${spin} 1.2s linear infinite;
-position: absolute;
-top: 123px;
-left: 47px;
 
-&::before, ::after{
-  
-  content: "";
-  position: absolute;
-  border-radius: inherit;
-
-  top: 50%;
-  left: 50%;
-  
-}
-&::before{
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(0deg, #f0c 0%, #80f 100%);
-  transform: translate(-50%, -50%);
-}
-&::after{
-  width: 85%;
-  height: 85%;
-  background-color: #8c78d2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-`
 
 
 
@@ -106,29 +73,10 @@ justify-content: center;
 min-width: 338px;
 max-width: 728px;
 box-shadow: inset 0px 0px 2px 0px black;
-/* box-shadow: 0 0 2.6px 0px black; */
-/* min-height: 550px;
-max-width: 500px; */
 
-
-/* min-width: 300px;
-min-height: 320px; */
-/* opacity: 0.8; */
 
 animation: ${breakAnimation}  .6s  ease-in-out;
-/* &:hover{
-  opacity: 1;
-  transform: scale(1.05);
-  transition: .7s;
-} */
-/* @media (max-width: 968px) {
-  opacity: 1;
-  }
 
-img{
-    border-radius: 15px;
-
-} */
 
 &:hover{
   transform: scale(1.05);
@@ -236,12 +184,15 @@ export default function CardProject(props){
           <img src={props.react} alt={props.altreact} />
 
           <img style={{width:"65px"}} src={props.redux? "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" : ""}     />
+
+          <img src={props.express ? express : "" }    />
+          <img src={props.mongodb ? mongodb : "" }    />
           
           </TecnologiesUsedContainer>
           
           
           <ContainerInfo>
-          <p style={{fontSize:"17px", padding:"10px 15px"}}>
+          <p style={{fontSize:"16px", padding:"10px 15px"}}>
             {props.description}
           </p>
           {/* <h3>{props.title}</h3> */}
