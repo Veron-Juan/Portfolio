@@ -58,6 +58,9 @@
   .container-skills--img img:nth-child(11) {
     animation:scale-up-horizontal-center 2.1s;
   }
+  .container-skills--img img:nth-child(12) {
+    animation:scale-up-horizontal-center 2.3s;
+  }
  
 
 

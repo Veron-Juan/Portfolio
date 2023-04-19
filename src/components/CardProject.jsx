@@ -7,6 +7,7 @@ import html from "../assets/skills/html.svg"
 import css from "../assets/skills/css.svg"
 import express from "../assets/skills/express.svg"
 import mongodb from "../assets/skills/mongodb.svg"
+import typescript from "../assets/skills/typescript.svg"
 import js from "../assets/skills/js.svg"
 import react from "../assets/skills/react.svg"
 
@@ -176,6 +177,7 @@ export default function CardProject(props){
 
           <img src={props.express ? express : "" }    />
           <img src={props.mongodb ? mongodb : "" }    />
+          <img style={{width:"51px"}} src={props.typescript ? typescript : "" }    />
           
           </TecnologiesUsedContainer>
           

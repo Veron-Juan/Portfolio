@@ -10,6 +10,7 @@ import node from "../assets/skills/node.svg"
 import mongodb from "../assets/skills/mongodb.svg"
 import express from "../assets/skills/express.svg"
 import redux from "../assets/skills/redux.svg"
+import typescript from "../assets/skills/typescript.svg"
 
 
 
@@ -29,6 +30,7 @@ export default function Skills(){
                 <img src={css}/>
                 <img src={js}/>
                 <img src={python}/>
+                <img src={typescript}/>
                 <img src={react}/>
                 <img src={redux}/>
                 <img src={git}/>

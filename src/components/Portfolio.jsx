@@ -67,6 +67,7 @@ export default function Portfolio(){
             js={js}
             altjs="javascript"
             react={react}
+            typescript={true}
             redux={true}
             express={true}
             mongodb={true}
