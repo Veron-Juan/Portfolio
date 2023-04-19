@@ -21,26 +21,15 @@ const breakAnimation = keyframes`
         
     }
 ` 
-const rotate360 = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
 
-const spin = keyframes`
-to{
-  transform: rotate(360deg);
-}
-`
+
 
 const TecnologiesUsedContainer = styled.div`
 display: flex;
 /* max-width: 180px; */
 align-items: center;
-justify-content: flex-start ;
+justify-content: end ;
+flex-wrap: wrap;
 /* margin: 5px 0 0 42px; */
 width: 300px;
 
@@ -70,7 +59,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-min-width: 338px;
+min-width: 238px;
 max-width: 728px;
 box-shadow: inset 0px 0px 2px 0px black;
 
@@ -91,7 +80,7 @@ h2{
 div{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 

@@ -25,7 +25,7 @@ const ContainerProjects = styled.div`
     display: grid;
     gap: 80px;
     /* grid-auto-rows: 440px; */
-    grid-template-columns: repeat(auto-fill, minmax(438px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     /* @media (max-width: 813px) {
     grid-auto-rows: 650px;
     }
@@ -39,7 +39,15 @@ border: 2px solid red;
 height: 300px;
 width: 300px;
 display: flex;
+`
 
+const Title = styled.h2`
+text-align: center;
+margin-bottom: 40px;
+@media (max-width: 960px) {
+    margin-top: 200px;
+    
+}
 
 `
 
@@ -48,7 +56,7 @@ export default function Portfolio(){
     return (
         <>
         
-        <h2 style={{textAlign:"center", margin:"70px 0 56px 0"}}>Projects</h2>
+        <Title>Projects</Title>
       <ContainerProjects id="portfolio">
 
       <CardProject
