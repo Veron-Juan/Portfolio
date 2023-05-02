@@ -6,7 +6,7 @@ import instagram from "../assets/Instagram.svg";
 import linkedin from "../assets/linkedinsvg.svg";
 import github from "../assets/github.svg";
 import foto from "../assets/photoJuan.jpg";
-import pdf from "../assets/JuanJVeron.pdf";
+import pdf from "../assets/JuanVeron_CV.pdf";
 
 
 const animationfoto = keyframes`
